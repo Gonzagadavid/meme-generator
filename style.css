@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  background-image: url('./imgs/background-image.jpg');
+  background-size: cover;
+  font-family: casualcomics, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: comickats, sans-serif;
+  font-size: 40px;
+  color: rgb(62 , 62 , 223);
+  text-shadow: black 5px 5px 5px;
+}
+
+button {
+  font-family: casualcomics, sans-serif;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+
+
+input {
+  font-family: casualcomics, sans-serif;
+  font-size: 20px;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+input::selection {
+  background-color: rgb(81 , 81 , 212);
+}
+
+#meme-insert::-webkit-file-upload-button {
+  font-family: casualcomics, sans-serif;
+  margin-left: 20px;
+  border: none;
+  font-size: 20px;
+  color: black;
+  background-color: transparent;
+}
+
+#meme-text {
+  display: block;
+  z-index: 2;
+  position: absolute;
+  color: white;
+  text-shadow: black 5px 5px 5px;
+  font-size: 30px;
+  width: 40%;
+  height: 40%;
+}
+
+#meme-image {
+  z-index: 1;
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+}
+
+#meme-image-container {
+  background-color: white;
+  border: solid black 1px;
+  width: 50%;
+  height: 40%;
+  margin: 15px auto;
+}
+
+#meme-2 {
+  height: 112px;
+}
+
+.content {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+}
+
+.text-container {
+  margin: 10px auto;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(255 , 255 , 255 , 0.7);
+  border-radius: 50%;
+}
+
+.ready-image {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.meme-ready {
+  margin: 15px;
+}
+
+@font-face {
+  font-family: comickats;
+  src: url('./font/comical_cartoon/Comical\ Cartoon.ttf');
+}
+
+@font-face {
+  font-family: casualcomics;
+  src: url('./font/k26casualcomics/K26CasualComics.ttf');
+}
